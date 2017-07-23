@@ -24,9 +24,9 @@
 
 ### Create a Model 
 Make a list of Music albums
-- Right click on the Model folder --> Add --> Class --> albums
+- Right click on the Model folder --> Add --> Class --> Album
 ```C#
-  public class Albums
+  public class Album
     {
         public int ID { get; set; }
         public String Artist { get; set; }
@@ -98,11 +98,11 @@ In Visual Studio, use the Package Manager Console to scaffold a new migration fo
 ******
 ## Form Validation 
 
-- Open your albums Model (albums.cs) 
+- Open your Album Model (Album.cs) 
 ```C#
 namespace MusicStore.Models
 {
-    public class albums
+    public class Album
     {
         public int ID { get; set; }
         public String Artist { get; set; }
@@ -122,14 +122,14 @@ namespace MusicStore.Models
 ```C#
 namespace MusicStore.Models
 {
-    public class albums
+    public class Album
     {
         public int ID { get; set; }
 
         [Required]
         public String Artist { get; set; }
 
-        [StringLength(60, MinimumLength =3)]
+        [StringLength(60, MinimumLength = 3)]
         [Required]
         public String Album { get; set; }
 
@@ -146,7 +146,7 @@ namespace MusicStore.Models
 }
 
 ```
-- Run the application and navigate to albums/Create 
+- Run the application and navigate to Album/Create 
 
 *Test validation by entering 1 for Album and $ for Genre*
 
