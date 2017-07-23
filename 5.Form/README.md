@@ -19,16 +19,14 @@
 ![image](https://cloud.githubusercontent.com/assets/2546640/23229622/f24133a8-f90e-11e6-8fae-a1652cab2478.PNG)
 
 
-**This can also be done in the commandline with**
-  
-    ```
-    dotnet new mvc
-    ```
+**This can also be done in the command line with**
+>dotnet new mvc
+
 ### Create a Model 
 Make a list of Music albums
-- Right click on the Model folder --> Add --> Class --> albums
+- Right click on the Model folder --> Add --> Class --> Album
 ```C#
-  public class albums
+  public class Album
     {
         public int ID { get; set; }
         public String Artist { get; set; }
@@ -100,11 +98,11 @@ In Visual Studio, use the Package Manager Console to scaffold a new migration fo
 ******
 ## Form Validation 
 
-- Open your albums Model (albums.cs) 
+- Open your Album Model (Album.cs) 
 ```C#
 namespace MusicStore.Models
 {
-    public class albums
+    public class Album
     {
         public int ID { get; set; }
         public String Artist { get; set; }
@@ -124,14 +122,14 @@ namespace MusicStore.Models
 ```C#
 namespace MusicStore.Models
 {
-    public class albums
+    public class Album
     {
         public int ID { get; set; }
 
         [Required]
         public String Artist { get; set; }
 
-        [StringLength(60, MinimumLength =3)]
+        [StringLength(60, MinimumLength = 3)]
         [Required]
         public String Album { get; set; }
 
@@ -148,9 +146,8 @@ namespace MusicStore.Models
 }
 
 ```
-- Run the application and navigate to albums/Create 
+- Run the application and navigate to Album/Create 
 
 *Test validation by entering 1 for Album and $ for Genre*
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23374172/130540c6-fcf1-11e6-9b39-8cb9ec63c931.PNG)
-
