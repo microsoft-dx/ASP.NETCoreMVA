@@ -8,4 +8,3 @@
  - [Routing and MVC](https://github.com/AndreiSpatariu/ASP.NETCoreMVA/tree/master/3.Routing%20%26%20MVC/README.md)
  - [Creating a Form](https://github.com/AndreiSpatariu/ASP.NETCoreMVA/tree/master/4.Form/README.md)
  - [Introuction to Web APIs with ASP.NET Core MVC](https://github.com/AndreiSpatariu/ASP.NETCoreMVA/tree/master/5.Web%20API/README.md)
- - [Logging and Diagnostics](https://github.com/AndreiSpatariu/ASP.NETCoreMVA/tree/master/6.Logging%20and%20Diagnostics/README.md)
