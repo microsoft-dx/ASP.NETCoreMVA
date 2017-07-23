@@ -14,7 +14,7 @@ Module Goal: Build a simple API that returns JSON and XML.
 
 Or you can use the dotnet CLI 
 
-`dotnet new webapi ` 
+>dotnet new webapi
 
 
 **Add a Model**
@@ -22,18 +22,18 @@ Or you can use the dotnet CLI
 2. Create a folder called `Models` and create a class called `Products` in that folder:
 
   ```C#
-  namespace Products.Models
+  namespace WebAPI.Models
 {
-    public class Products
+    public class Product
     {
         public int Id { get; set; }
         public string Name { get; set; }
-
     }
 }
 
   ```
 **Add a Controller**
+
 3. In the Controller folder create a class called `ProductsController`.
 4. Add an attribute route `[Route("/api/[controller]")]` to the `ProductsController` class:
 
