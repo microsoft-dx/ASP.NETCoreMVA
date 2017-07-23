@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Routing;
 
 namespace MVC
 {
@@ -16,7 +17,7 @@ namespace MVC
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddRouting();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -29,12 +30,12 @@ namespace MVC
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseFileServer(enableDirectoryBrowsing: true);
+            var routeBuilder = new RouteBuilder(app);
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            routeBuilder.MapGet("", context => context.Response.WriteAsync("Hello from Routing!"));
+            routeBuilder.MapGet("item/{id:int}", context => context.Response.WriteAsync($"Item ID: {context.GetRouteValue("id")}"));
+
+            app.UseRouter(routeBuilder.Build());
         }
     }
 }
