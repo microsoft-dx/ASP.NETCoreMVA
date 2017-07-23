@@ -17,6 +17,7 @@ namespace MVC
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddMvc();
             services.AddRouting();
         }
 
@@ -35,6 +36,7 @@ namespace MVC
             routeBuilder.MapGet("", context => context.Response.WriteAsync("Hello from Routing!"));
             routeBuilder.MapGet("item/{id:int}", context => context.Response.WriteAsync($"Item ID: {context.GetRouteValue("id")}"));
 
+            //app.UseMvc();
             app.UseRouter(routeBuilder.Build());
         }
     }
