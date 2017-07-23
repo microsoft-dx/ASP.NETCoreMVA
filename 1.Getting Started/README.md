@@ -3,7 +3,7 @@
 *Module goals: Introduce your audience to .NET Core and the available tools and resources.*
 *Spend time on the .NET CLI show new,run,and watch*
 
-##Install the .NET Core SDK 
+## Install the .NET Core SDK 
 1. Go to https://dot.net and follow the instructions to download and install the .NET Core SDK for your OS
 
 ### Setting up on different environments
@@ -21,7 +21,7 @@
 - Set up the apt-get that hosts the packages 
 - Install .NET Core SDK
 
-###Introduction to the .NET CLI
+### Introduction to the .NET CLI
 
 - Test that you have you .NET installed by going to commandline or terminal and typing 
 ```sh
@@ -49,7 +49,7 @@
 ```sh
     code .
 ```
-####Edit Code 
+### Edit Code 
 
 *Option 1: Consider updating program.cs to accept input* 
 ```sh

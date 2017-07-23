@@ -1,4 +1,4 @@
-###Introduction to ASP.NET Core
+### Introduction to ASP.NET Core
 
 *This course is based on Scott Hanselman and Maria Naggaga's MVA on ASP.NET Core*. You can read more and watch the video [here](https://github.com/LadyNaggaga/ASP.NETCoreMVA) :smiley:
 
