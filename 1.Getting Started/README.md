@@ -158,3 +158,4 @@ Consider showing [dotnet watch](https://docs.microsoft.com/en-us/aspnet/core/tut
 
 - [docs.microsoft.com](https://docs.microsoft.com/)
 
+## [Module 2: Introduction to ASP.NET Core and  Middleware](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/2.Introduction%20into%20ASP.NET%20Core/README.md)

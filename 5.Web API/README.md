@@ -328,3 +328,8 @@ Option 1: Edit by hand
 - Write a custom output formatter to prints the product name as plain text
 - Replace the static list of products with entity framework in memory store
 - Replace the static list with entity framework + sqlite
+
+
+## Congratulations!
+
+You have reached the end of this course! *The material is based on Scott Hanselman and Maria Naggaga's MVA on ASP.NET Core*. I highly reccommend that you check out their more in-depth video material [here](https://github.com/LadyNaggaga/ASP.NETCoreMVA) :smiley:

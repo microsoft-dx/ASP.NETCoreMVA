@@ -151,3 +151,5 @@ namespace MusicStore.Models
 *Test validation by entering 1 for Album and $ for Genre*
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23374172/130540c6-fcf1-11e6-9b39-8cb9ec63c931.PNG)
+
+## [Module 5: Introuction to Web APIs with ASP.NET Core MVC](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/5.Web%20API/README.md)

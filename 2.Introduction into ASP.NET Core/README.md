@@ -175,3 +175,4 @@ Replace to `app.UseFileServer()` to
 
 - Run the application and it should print out `Hello World! Production`.
 
+## [Module 3: Routing and MVC](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/tree/master/3.Routing%20%26%20MVC)
