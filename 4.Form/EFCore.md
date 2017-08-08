@@ -21,8 +21,9 @@ There are two approaches to using Entity Framework
 
 #### Code First
 
+![CodeFirst](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/Images/EF-2.png)
+
 This approach autmatically creates the database schema based on what *models* you have in your application.
 
 With the Code-First approach, you can focus on the domain design and start creating classes as per your domain requirement rather than design your database first and then create the classes which match your database design.
 
-![CodeFirst](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/Images/EF-2.png)
