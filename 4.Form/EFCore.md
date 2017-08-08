@@ -13,7 +13,7 @@ With the Entity Framework, developers can work at a higher level of abstraction 
 
 ### How can we do this?
 
-![CodeFirstModelFirst](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/Images/EF-1.png)
+![CodeFirstModelFirst](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/Images/EF-1.PNG)
 
 There are two approaches to using Entity Framework 
   * Code-First
