@@ -68,6 +68,8 @@ Make a list of Music albums
 
 **Add Database**
 
+*Note!*: Check out [this](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/4.Form/EFCore.md) short guide on [Entity Framework](https://docs.microsoft.com/en-us/ef/).
+
 *Option 1: Use Visual Studio*
 
 In Visual Studio, use the Package Manager Console to scaffold a new migration for these changes and apply them to the database:
