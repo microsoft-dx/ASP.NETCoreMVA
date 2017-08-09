@@ -29,7 +29,7 @@
 - Change the Debug drop down in the toolbar to the application name
     ![image](https://cloud.githubusercontent.com/assets/2546640/23097455/40937bfc-f602-11e6-941f-f78a50799bc3.png)
 
-- Run the application and navigate to the root. It should show the hello world middleware.
+- Run the application and navigate to the root. It should show the hello world.
 - Change the port to `8081` by adding a call to `UseUrls` in the `Program.cs`:
 
    ```
@@ -53,7 +53,7 @@
 - Go to the `Debug` tab --> Application properties--> Debug and change `Launch URL` to `http://localhost:8081`
     ![image](https://cloud.githubusercontent.com/assets/2546640/23097466/89975a26-f602-11e6-835f-ccf7fb6629d9.PNG) 
    
-- Run the application and navigate to the root. It should show the hello world middleware running on port 8081.
+- Run the application and navigate to the root. It should show the hello world running on port 8081.
 
 > **Note:** If the page does not load correctly, verify that the console application host is running and refresh the browser.
 
