@@ -33,4 +33,4 @@ With the Code-First approach, you can focus on the domain design and start creat
 
 In the Model First approach, you create Entities, relationships, and inheritance hierarchies directly on the design surface of EDMX and then generate database from your model.
 
-Now that we know a little about Entity Framework, let's get [back](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/4.Form/README.md#create-a-controller) to our database.
+Now that we know a little about Entity Framework, let's get [back](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/4.Form/README.md#add-a-database) to our database.
