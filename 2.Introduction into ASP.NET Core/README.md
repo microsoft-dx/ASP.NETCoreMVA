@@ -20,9 +20,8 @@
 
 **This can also be done in the commandline with**
   
-    ```
-    dotnet new web
-    ```
+>dotnet new web
+
 *if done in commandline open program in vs code to show file structure*
      
 ## Running the application under IIS or on Kestrel 
