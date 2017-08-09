@@ -27,3 +27,10 @@ This approach autmatically creates the database schema based on what *models* yo
 
 With the Code-First approach, you can focus on the domain design and start creating classes as per your domain requirement rather than design your database first and then create the classes which match your database design.
 
+#### Model First
+
+![ModelFirst](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/Images/EF-2.png)
+
+In the Model First approach, you create Entities, relationships, and inheritance hierarchies directly on the design surface of EDMX and then generate database from your model.
+
+Now that we know a little about Entity Framework, let's get [back](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/4.Form/README.md#create-a-controller) to our database.
