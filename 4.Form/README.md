@@ -66,7 +66,7 @@ Make a list of Music albums
 
 ![image](https://cloud.githubusercontent.com/assets/2546640/23279240/72048792-f9e2-11e6-89de-0e02b16e1a78.PNG)
 
-**Add Database**
+### Add a Database
 
 *Note!*: Check out [this](https://github.com/microsoft-dx/aspnet-core-fundamentals-mva/blob/master/4.Form/EFCore.md) short guide on [Entity Framework](https://docs.microsoft.com/en-us/ef/).
 
