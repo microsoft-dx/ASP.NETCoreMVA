@@ -30,7 +30,7 @@ Make a list of Music albums
     {
         public int ID { get; set; }
         public String Artist { get; set; }
-        public String Album { get; set; }
+        public String AlbumName { get; set; }
         public String Genre { get; set; }
         public DateTime ReleaseDate { get; set; }
         public decimal Price { get; set; }
