@@ -70,12 +70,13 @@
 *Edit by hand*
 ```sh
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp1.0</TargetFramework>
     <ItemGroup>
         <PackageReference Include= "Microsoft.AspNetCore" Version="1.0.0" />
+    </ItemGroup>
+  </PropertyGroup>
 </Project>
    ```
 *Add package using dotnet cli*
