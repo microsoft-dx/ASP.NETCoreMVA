@@ -29,9 +29,9 @@ Make a list of Music albums
   public class Album
     {
         public int ID { get; set; }
-        public String Artist { get; set; }
-        public String AlbumName { get; set; }
-        public String Genre { get; set; }
+        public string Artist { get; set; }
+        public string AlbumName { get; set; }
+        public string Genre { get; set; }
         public DateTime ReleaseDate { get; set; }
         public decimal Price { get; set; }
     }
